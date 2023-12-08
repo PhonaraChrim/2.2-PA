@@ -36,9 +36,14 @@ const App = () => {
         </ul>
       </nav>
   
+      
+
       <div className="mainContainer">
         {renderPage()} 
       </div>
+
+      <div className="divider">
+        </div> 
 
       <div className="mainContainer">
         <div className="itemContainer">
@@ -58,6 +63,10 @@ const App = () => {
         </div>
       </div>
 
+      
+      <footer className="footer">
+        
+      </footer>
     </div>
   );
 };
